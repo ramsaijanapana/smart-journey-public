@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Support for Smart Journey: Offline Trips, a private on-device trip planner." />
+    <title>Smart Journey: Offline Trips — Support</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Smart Journey support home">
+        <span class="brand-mark" aria-hidden="true">SJ</span>
+        <span>Smart Journey: Offline Trips</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#support">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Private, on-device trip planning</p>
+        <h1>Keep the trip. Lose the clutter.</h1>
+        <p class="lede">
+          Smart Journey turns pasted travel details into a calm, searchable itinerary. Parsing happens on your device, and no account is required.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#support">Get support</a>
+          <a class="button secondary" href="privacy.html">Read the privacy notice</a>
+        </div>
+      </section>
+
+      <section class="grid" aria-label="Product highlights">
+        <article>
+          <p class="number">01</p>
+          <h2>Paste what you have</h2>
+          <p>Add flight, stay, dining, or link details in one mixed note.</p>
+        </article>
+        <article>
+          <p class="number">02</p>
+          <h2>Parse locally</h2>
+          <p>On-device parsing extracts itinerary items and keeps evidence tied to the original text.</p>
+        </article>
+        <article>
+          <p class="number">03</p>
+          <h2>Search and edit</h2>
+          <p>Find confirmation codes, edit details, move items between days, and undo recent changes.</p>
+        </article>
+      </section>
+
+      <section id="support" class="support-card">
+        <div>
+          <p class="eyebrow">Support</p>
+          <h2>How can we help?</h2>
+          <p>
+            For a question, bug report, or feature request, open a GitHub support issue. Do not include booking confirmations, travel dates, addresses, or other private trip information.
+          </p>
+        </div>
+        <a class="button primary" href="https://github.com/ramsaijanapana/smart-journey-public/issues/new" rel="noreferrer">Open a support issue</a>
+      </section>
+
+      <section class="faq">
+        <p class="eyebrow">Common questions</p>
+        <h2>Quick answers</h2>
+        <details>
+          <summary>Do I need an account?</summary>
+          <p>No. Smart Journey does not require sign-in.</p>
+        </details>
+        <details>
+          <summary>Where is my trip stored?</summary>
+          <p>Your trip workspace is stored on the device using the app’s local storage.</p>
+        </details>
+        <details>
+          <summary>How do I remove my data?</summary>
+          <p>Use <strong>Clear trip</strong> to remove the current trip workspace, or <strong>Delete all local data</strong> to remove the app’s local database files, keys, and cached artifacts from the device.</p>
+        </details>
+        <details>
+          <summary>Does trip parsing use a remote AI service?</summary>
+          <p>No. Trip parsing uses an embedded on-device model with deterministic extraction. There is no remote inference fallback for trip parsing.</p>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Devara Ventures</p>
+      <div>
+        <a href="privacy.html">Privacy Notice</a>
+        <a href="https://github.com/ramsaijanapana/smart-journey-public/issues">Support Issues</a>
+      </div>
+    </footer>
+  </body>
+</html>
